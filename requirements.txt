@@ -1,0 +1,7 @@
+openai
+faiss-cpu
+python-dotenv
+PyMuPDF  # for PDF reading
+tqdm
+unstructured  # robust document loader
+langchain

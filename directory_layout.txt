@@ -1,0 +1,21 @@
+job_application_rag/
+│
+├── data/
+│   ├── applications/
+│   │   └── 2025-07-11_google_ds_director/
+│   │       ├── job_posting.txt
+│   │       ├── resume_v2_google_tweaks.pdf
+│   │       ├── cover_letter_v2.txt
+│   │       └── metadata.json
+│
+├── embeddings/
+│   └── faiss_index/
+│
+├── app/
+│   ├── ingest.py          # Parses and stores app data + embeddings
+│   ├── query.py           # Semantic search and GPT summary
+│   ├── utils.py
+│
+├── config.py
+├── main.py
+├── requirements.txt
