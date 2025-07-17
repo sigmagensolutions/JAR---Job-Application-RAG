@@ -22,7 +22,7 @@ data/
 
 🚀 Setup Instructions
 Clone the Repo & Set Up Virtual Environment
-git clone https://github.com/yourusername/job_application_rag.git
+git clone https://github.com/sigmagensolutions/JAR---Job-Application-RAG
 cd job_application_rag
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
