@@ -1,4 +1,17 @@
+# Python virtual environments
 .venv/
 __pycache__/
+*.pyc
+
+# Environment variables
 .env
+
+# FAISS index and embeddings
 embeddings/
+
+# VS Code settings (optional)
+.vscode/
+
+# MacOS & Windows system files
+.DS_Store
+Thumbs.db
